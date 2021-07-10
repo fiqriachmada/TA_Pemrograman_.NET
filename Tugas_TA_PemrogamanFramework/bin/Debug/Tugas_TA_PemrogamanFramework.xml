@@ -1,0 +1,481 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Tugas_TA_PemrogamanFramework
+</name>
+</assembly>
+<members>
+<member name="T:Tugas_TA_PemrogamanFramework.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Tugas_TA_PemrogamanFramework.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Tugas_TA_PemrogamanFramework.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet.data_siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet.data_siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet.data_siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.data_siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager.UpdateAll(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1.data_siswaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1.data_siswaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1.data_siswaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.data_siswaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager.UpdateAll(Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.absensi_siswaDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet.Table1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet.Table1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet.Table1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.Table1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager.UpdateAll(Tugas_TA_PemrogamanFramework.db_adminDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1.Table1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1.Table1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1.Table1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.Table1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager.UpdateAll(Tugas_TA_PemrogamanFramework.db_adminDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2.Table1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2.Table1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2.Table1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.Table1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager.UpdateAll(Tugas_TA_PemrogamanFramework.db_adminDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3.Table1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3.Table1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3.Table1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.Table1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager.UpdateAll(Tugas_TA_PemrogamanFramework.db_adminDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4.Table1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4.Table1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4.Table1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.Table1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(Tugas_TA_PemrogamanFramework.db_adminDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager.UpdateAll(Tugas_TA_PemrogamanFramework.db_adminDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Tugas_TA_PemrogamanFramework.db_adminDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
